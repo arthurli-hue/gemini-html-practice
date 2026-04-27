@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur's QA Automation Practice</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        main {
+            flex: 1;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+        .task-card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 20px 30px;
+            margin-bottom: 20px;
+            border-left: 5px solid #3498db;
+        }
+        .task-card h3 {
+            margin-top: 0;
+            color: #2980b9;
+        }
+        .task-card code {
+            background: #eee;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            color: #c0392b;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #bdc3c7;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Arthur's QA Automation Practice</h1>
+        <p>自動化測試與 Python 開發成果展示</p>
+    </header>
+
+    <main>
+        <div class="task-card">
+            <h3>1. 自動化測試憑證設定</h3>
+            <p>設定檔：<code>credentials.json</code></p>
+            <p>說明：管理與配置自動化測試所需的授權憑證與環境變數，確保安全性與靈活性。</p>
+        </div>
+
+        <div class="task-card">
+            <h3>2. 生成 Google Sheets 測試報告</h3>
+            <p>執行檔：<code>generate_gsheets_report.py</code></p>
+            <p>說明：將測試結果自動化匯出並串接至 Google Sheets，提供視覺化的報表數據。</p>
+        </div>
+
+        <div class="task-card">
+            <h3>3. 重構測試代碼與主入口設計</h3>
+            <p>執行檔：<code>refactor.py</code> & <code>main_entry.py</code></p>
+            <p>說明：優化既有代碼架構 (Refactoring)，並建立統一的程式執行入口 (Main Entry)，提升代碼的可維護性與擴展性。</p>
+        </div>
+    </main>
+
+    <footer>
+        Version 1.0
+    </footer>
+
+</body>
+</html>
